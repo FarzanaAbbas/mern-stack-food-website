@@ -107,11 +107,8 @@ const PlaceOrder = () => {
             </div>
 
           </div>
-          <input type="radio" name='payment' value="cash on delivery"/>
-          <label htmlFor="">Cash on delivery</label>
-          <input type="radio" name='payment' value="Stripe"/>
-          <label htmlFor="">Stripe</label>
-          <button type='submit' >Place Order</button>
+         
+          <button type='submit' >Proceed to payment</button>
         </div>
 
       </div>
