@@ -4,11 +4,10 @@ import userModel from "../models/userModel.js";
 
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
-
+ const frontend_url = "https://mern-stack-food-website-frontend.onrender.com/";
 
 //placing user order from frontend
 const placeOrder = async (req, res) => {
-    const frontend_url = "https://mern-stack-food-website-frontend.onrender.com/";
     try {
         const newOrder = new orderModel({
             userId: req.body.userId,
