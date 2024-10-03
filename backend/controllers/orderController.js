@@ -3,8 +3,6 @@ import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
-const currency = "inr",
- const deliveryCharge = 50,
  const frontend_url = "https://mern-stack-food-website-frontend.onrender.com/";
 
 //placing user order from frontend
