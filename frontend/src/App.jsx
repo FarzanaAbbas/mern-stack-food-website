@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer'
 import LoginPopup from './Components/LoginPopup/LoginPopup'
 import Verify from './Pages/Verify/Verify'
 import MyOrders from './Pages/MyOrders/MyOrders'
+import TableReservation from './Pages/TableReservation/TableReservation'
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
         <Navbar setShowLogin={setShowLogin}/>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='table-reservation' element={<TableReservation />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/order' element={<PlaceOrder />} />
           <Route path='/verify' element={<Verify />} />

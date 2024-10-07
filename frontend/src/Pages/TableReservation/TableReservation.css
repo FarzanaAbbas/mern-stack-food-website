@@ -1,0 +1,27 @@
+
+.h2{
+text-align: center;
+margin: 40px;
+
+}
+.reservation-form form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin:50px auto;
+    padding: 10px;
+    height: 420px;
+    background-color:rgb(92, 91, 91)
+}
+.reservation-form form input {
+    padding: 15px;
+
+
+}
+.reservation-form form button {
+    height: 40px;
+    width: 150px;
+    margin: auto;
+
+}
