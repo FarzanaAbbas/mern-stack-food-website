@@ -23,7 +23,7 @@ navigate("/")
       <ul className="navbar-menu">
         <Link to='/' onClick={() => setMenu("Home")} className={menu === "Home" ? "active" : ""}>Home</Link>
         <a href='#explore-menu' onClick={() => setMenu("Menu")} className={menu === "Menu" ? "active" : ""}>Menu</a>
-        <a href='/table-reservation' onClick={() => setMenu("Table Reservation")} className={menu === "Table Reservation" ? "active" : ""}>Table Reservation</a>
+        <Link to='/table-reservation' onClick={() => setMenu("Table Reservation")} className={menu === "Table Reservation" ? "active" : ""}>Table Reservation</Link>
         <a href='#footer' onClick={() => setMenu("Contact-us")} className={menu === "Contact-us" ? "active" : ""}>Contact-us</a>
       </ul>
 
