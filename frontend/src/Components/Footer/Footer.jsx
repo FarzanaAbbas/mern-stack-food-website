@@ -1,4 +1,3 @@
-import React from 'react'
 import './Footer.css'
 import { assets } from '../../assets/assets'
 
@@ -30,13 +29,13 @@ const Footer = () => {
                     <h2>GET IN TOUCH</h2>
                     <ul>
                         <li>+91 987654320</li>
-                        <li>contact@towncube.com</li>
+                        <li>contact@FlavorHub.com</li>
                     </ul>
                 </div>
             </div>
             <hr />
             <p className="footer-copyright">
-                Copyright 2024 © TownCube.com - All Right Reserved.
+                Copyright 2024 © FlavorHub.com - All Right Reserved.
             </p>
         </div>
     )
