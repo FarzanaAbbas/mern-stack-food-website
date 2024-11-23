@@ -30,12 +30,14 @@ const Footer = () => {
                     <ul>
                         <li>+91 987654320</li>
                         <li>contact@FlavorHub.com</li>
+                        <li>contact@food.com</li>
                     </ul>
                 </div>
             </div>
             <hr />
             <p className="footer-copyright">
                 Copyright 2024 © FlavorHub.com - All Right Reserved.
+                Copyright 2024 © Food.com - All Right Reserved.
             </p>
         </div>
     )
