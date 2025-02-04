@@ -1,8 +1,18 @@
-# React + Vite
+# FlavorHub - MERN Stack Food Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+FlavorHub is a full-stack food website built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It provides users with the ability to browse recipes, order food, and explore different cuisines. The project is designed to deliver a seamless user experience with a modern and responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+- **Recipe Listings:** Browse recipes with detailed instructions.
+- **Food Ordering System:** Order your favorite meals easily.
+- **User Authentication:** Secure user login and registration.
+- **Dynamic UI:** Interactive front-end with React.js.
+- **Backend API:** RESTful API for managing data.
+
+## Contact
+- **Author:** Farzana Abbas
+- **GitHub:** [FarzanaAbbas](https://github.com/FarzanaAbbas)
+- **Email:** connectwithfarzaana.com
+
